@@ -1,0 +1,79 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+                                                
+}
+div {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;   
+    overflow: visible;
+    text-align: center;
+    padding: 0;
+}
+
+.main
+{
+    width: 100%;
+    
+}
+
+.field p{
+    vertical-align: middle;
+    font-size: large;
+    margin-left: 10%;
+    width: 80%;
+}
+.field
+{
+    
+    padding-top: 50px;
+    text-align: center;
+    height: 150px;
+    vertical-align: middle;
+    border-width: 4px;
+    border-radius: 10px;
+    border-style: double;
+    border-color:rgb(237, 100, 157);
+    
+}
+
+select, input{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffdaf9;
+    text-align: center;
+    width:40%;
+    padding: 0;
+    font-size: large;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+select option:disabled{
+    color: #ababab;
+    background-color: #ffe8fb;
+}
+
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    height: 50px;
+    padding: 0;
+    font-size: large;
+    font-weight:bold;
+    color: rgb(255, 203, 234);
+    text-shadow: 1px 1px 1px #b10064;
+    border-width: 2px;
+    border-radius: 8px;
+    border: none;
+    border-color: rgb(159, 63, 117);
+    background-color: rgb(237, 100, 157);
+}
+
+@media (max-width: 480px)
+{
+    div{
+        width: 100%;
+        
+    }
+}
