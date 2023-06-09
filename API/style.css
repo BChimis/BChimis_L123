@@ -1,0 +1,111 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    
+}
+
+h1{
+    padding-left: 10%;
+    font-family: Arial,sans-serif;
+    
+}
+
+
+
+#main
+{
+    padding-left: 10%;
+    height: 60px;
+    width: 90%;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+#div-input{
+    
+    width:70%;
+    display: inline-block;
+}
+
+#div-button{
+    margin-left: 40px;
+    width:10%;
+    display: inline-block;
+}
+
+input{
+    padding-left: 20px;
+    
+    height: 44px;
+    width: 100%;
+    border-width: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(101, 0, 123);
+    font-size: 20px;
+}
+
+button
+{
+    height: 50px;
+    width: 100%;
+    background-color:rgb(255, 144, 236);
+    border-width: 0px;
+    border-radius: 10px;
+    font-family: Arial,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    
+}
+
+#vacancies{
+    width: 90%;
+    padding-top: 30px;
+    padding-left: 10%;
+
+    display: block;
+    position: relative;
+    align-items: center;
+}
+.inner
+{
+    border-width: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(101, 0, 123);
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.name
+{
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(98, 0, 88);
+}
+
+
+.text
+{
+    width: 70%;
+    display: block;
+    color: rgb(137, 78, 138);
+}
+
+.button
+{
+    width: 30%;
+}
+
+.link
+{
+    width: 80%;
+    font-size: 18px;
+}
